@@ -23,7 +23,7 @@ void sort(vector<int> &arr) {
 int main() {
     vector<int> arr = {0, 1, 2, 1, 0, 2, 1, 0};
 
-    sortColors(arr);
+    sort(arr);
 
     for (int arr : arr) {
         cout << arr << " ";
